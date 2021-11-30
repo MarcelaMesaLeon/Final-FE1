@@ -13,11 +13,11 @@ html{
     background-color: rgb(242, 95, 58);
     border-radius: 3.12rem;
     border: none;
-    padding: 0.5rem 1.5rem;
+    padding: 0.8rem 1.5rem;
 }
 .boton a{
     color: white;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     text-decoration: none;
 }
 .boton:hover{
@@ -32,7 +32,7 @@ html{
 }
 #boton2 a{
     color: white;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     text-decoration: none;
 }
 #boton2:hover{
@@ -69,8 +69,11 @@ html{
 }
 .contenedorlista a{
     color: rgb(35, 44, 81);
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     text-decoration: none;
+}
+.contenedorlista a:hover{
+    color: rgb(143, 148, 167);
 }
 .menu{
     color: rgb(29, 30, 37);
@@ -81,19 +84,19 @@ html{
 .contenedorprincipal{
     display: flex;
     justify-content: space-around;
-    margin: 5.5rem 5.5rem 4rem 5.5rem;
+    margin: 5.5rem 5.5rem 4rem 7rem;
 }
 h1{
     color: rgb(35, 44, 81);
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
     padding: 1rem 0rem;
 }
 .contenedorprincipal p{
-    color: rgb(0, 0, 0);
-    font-size: 1rem;
-    padding-right: 7rem;
-    padding: 1rem 0rem;
+    color: rgb(143, 148, 167);
+    font-size: 1.2rem;
+    padding: 1rem 12rem 1rem 0rem;
+    margin-bottom: 1rem;
 }
 .contenedortextoprincipal{
     padding-top: 4rem;
@@ -107,16 +110,19 @@ h1{
 }
 /* estilos seccion central lado izquierdo */
 .contenedorcentroizquierda p{
-    color: rgb(0, 0, 0);
+    color: rgb(143, 148, 167);
     font-weight: 500;
-    padding-right: 9rem;
+    padding-right: 13rem;
+    padding-left: 2rem;
+    font-size: 1.2rem;
 }
 h3{
     color: rgb(35, 44, 81);
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
-    padding: 1rem 6rem 1rem 0rem
+    padding: 3rem 9rem 1rem 2rem
 }
+
 /* estilos seccion central lado derecho */
 .contenedorcentroderecha{
     display: flex;
@@ -127,10 +133,11 @@ h3{
 h5{
     color: rgb(35, 44, 81);
     padding: 1rem 6rem;
+    font-size: 1rem;
 }
 .contenedorcentroderecha p{
     color: rgb(143, 148, 167);
-    font-size: 0.75rem;
+    font-size: 1rem;
     font-weight: 500;
     padding: 0rem 6rem;
 }
@@ -139,7 +146,7 @@ h5{
     border-radius: 1.87rem;
     color: white;
     content: '01';
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     margin: 3rem;
     padding: 0.5rem 1.1rem;
     position: relative;
@@ -151,7 +158,7 @@ h5{
     border-radius: 1.87rem;
     color: white;
     content: '02';
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     margin: 3rem;
     padding: 0.5rem 1.1rem;
     position: relative;
@@ -163,7 +170,7 @@ h5{
     border-radius: 1.87rem;
     color: white;
     content: '03';
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     margin: 3rem;
     padding: 0.5rem 1.1rem;
     position: relative;
@@ -180,7 +187,7 @@ h5{
 }
 h2{
     color: rgb(35, 44, 81);
-    font-size: 1.8rem;
+    font-size: 2.1rem;
     font-weight: 700;
     padding: 1rem 0rem 3rem 0rem;
 }
@@ -207,7 +214,7 @@ h2{
 }
 .card p{
     color: rgb(143, 148, 167);
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     padding: 0rem 1.5rem 0rem 1.5rem;
 }
 .menuhorizontal{
@@ -220,13 +227,13 @@ h2{
     background-color: rgb(242, 95, 58);
     color: white;
     display: flex;
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 500;
     justify-content: space-between;
     padding: 2.5rem 10rem 2.5rem 10rem;
 }
 .contenedornaranja p{
-    width: 20rem;
+    width: 26rem;
 }
 
 /* estilos footer */
@@ -247,7 +254,7 @@ h2{
 }
 .contenedor1 i{
     color: white;
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin: 0.3rem;
 }
 .contenedor1 i:hover{
@@ -391,6 +398,7 @@ h2{
         font-size: 0.8rem;
         line-height: 1.3rem;
         padding: 1.2rem;
+        text-align: center;
     }
     h3{
         font-size: 1.5rem;
@@ -400,7 +408,8 @@ h2{
     .contenedorcentroderecha p{
         color: rgb(143, 148, 167);
         font-weight: 300;
-        line-height: 1.3rem;
+        font-size: 0.75rem;
+        line-height: 1rem;
         padding: 1rem 0rem 1rem 0rem;
     }
     #texto1::before {
@@ -440,11 +449,12 @@ h2{
         top: 1.5rem;
     }
     h5{
-        padding: 0.5rem 3.1rem;
-        margin: 0rem;
         background-color: rgb(255, 239, 234);
-        font-weight: 500;
         border-radius: 1rem 0rem 0rem 1rem;
+        font-size: 0.8rem;
+        font-weight: 500;
+        margin: 0rem;
+        padding: 0.5rem 3.1rem;
     }
     #titulo3{
         padding-right: 2rem;
@@ -459,6 +469,9 @@ h2{
         flex-direction: column;
         padding: 0rem 1rem;
     }
+    .card p{
+        font-size: 0.8rem;
+    }
     .menuhorizontal{
         color: rgb(242, 95, 58);
         display: initial;
@@ -472,13 +485,13 @@ h2{
         display: flex;
         flex-direction: column;
         justify-content: space-aroundS;
-        padding: 5rem 3rem;
+        padding: 4rem 3.5rem;
         text-align: center;
     }
     .contenedornaranja p{
-        font-size: 2.5rem;
+        font-size: 2.8rem;
         font-weight: 500;
-        padding-bottom: 2rem;
+        padding: 2rem;
     }
     /* media queries footer */
     .contenedorfinal{
