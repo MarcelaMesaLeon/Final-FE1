@@ -62,6 +62,9 @@ html{
     font-size: 0.8rem;
     text-decoration: none;
 }
+.contenedorlista a:hover{
+    color: rgb(143, 148, 167);
+}
 .menu{
     color: rgb(29, 30, 37);
     display: none;
