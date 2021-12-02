@@ -14,6 +14,8 @@ html{
     border-radius: 3.12rem;
     border: none;
     padding: 0.5rem 1.5rem;
+    color: white;
+    cursor: pointer;
 }
 .boton a{
     color: white;
@@ -40,18 +42,6 @@ html{
 }
 #boton2 a:hover{
     color: rgb(242, 95, 58);
-}
-#boton3{
-    background-color: rgb(242, 95, 58);
-    border-radius: 3.12rem;
-    border: none;
-    color: white;
-    margin-left: 1rem;
-    padding: 0.5rem 1rem;
-}
-#boton3:hover{
-    cursor: pointer;
-    opacity: 70%;
 }
 
 /*estilos header*/
@@ -90,10 +80,9 @@ h1{
     padding: 1rem 0rem;
 }
 .contenedorprincipal p{
-    color: rgb(0, 0, 0);
+    color: rgb(143, 148, 167);
     font-size: 1rem;
-    padding-right: 7rem;
-    padding: 1rem 0rem;
+    padding: 1rem 7rem 2rem 0rem;
 }
 .contenedortextoprincipal{
     padding-top: 4rem;
@@ -107,26 +96,26 @@ h1{
 }
 /* estilos seccion central lado izquierdo */
 .contenedorcentroizquierda p{
-    color: rgb(0, 0, 0);
+    color: rgb(143, 148, 167);
     font-weight: 500;
     padding-right: 9rem;
 }
 h3{
     color: rgb(35, 44, 81);
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
-    padding: 1rem 6rem 1rem 0rem
+    padding: 2rem 6rem 1rem 0rem
 }
 /* estilos seccion central lado derecho */
 .contenedorcentroderecha{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 1rem;
+    padding: 0rem 1rem;
 }
 h5{
     color: rgb(35, 44, 81);
-    padding: 1rem 6rem;
+    padding: 1rem 6rem 0rem 6rem;
 }
 .contenedorcentroderecha p{
     color: rgb(143, 148, 167);
@@ -259,32 +248,20 @@ h2{
     justify-content: space-between;
     width: 23rem;
 }
-.contenedor2{
+.contenedorenlaces{
     display: flex;
     flex-direction: column;
 }
-.contenedor2 a{
+.contenedorenlaces a{
     color: white;
     text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0.5rem;
 }
-.contenedor2 a:hover{
+.contenedorenlaces a:hover{
     color: rgb(242, 95, 58);
 }
-.contenedor2 li{
-    margin: 0.2rem;
-}
-.contenedor3{
-    display: flex;
-    flex-direction: column;
-}
-.contenedor3 a{
-    color: white;
-    text-decoration: none;
-}
-.contenedor3 a:hover{
-    color: rgb(242, 95, 58);
-}
-.contenedor3 li{
+.contenedorenlaces li{
     margin: 0.2rem;
 }
 .contenedor4{
@@ -306,15 +283,23 @@ h2{
     padding-left: 1rem;
     padding-top: 0.5rem;
 }
-.contenedor4 p{
-    color: rgb(143, 148, 167);
-    font-size: 0.7rem;
+#aviso{
+    color: rgb(242, 95, 58);
+    font-size: 0.55rem;
+    font-style: italic;
+    position: relative;
+    right: 8rem;
+    bottom: 1rem;
 }
 #derechos{
     display: initial;
+    color: rgb(143, 148, 167);
+    font-size: 0.7rem;
 }
 #derechos2{
     display: none;
+    color: rgb(143, 148, 167);
+    font-size: 0.7rem;
 }
 
 
@@ -334,6 +319,8 @@ h2{
     }
     .menu{
         display: initial;
+        font-size: 1.5rem;
+        padding-right: 1rem;
     }
     
     /* media queries main */
@@ -347,15 +334,11 @@ h2{
         margin: 2rem;
     }
     h1{
-        color: rgb(35, 44, 81);
         font-size: 2rem;
         font-weight: 700;
         text-align: center;
-        text-align: center;
     }
     .contenedorprincipal p{
-        color: rgb(0, 0, 0);
-        color: rgb(143, 148, 167);
         font-size: 0.8rem;
         line-height: 1.3rem;
         padding: 1.2rem;
@@ -386,7 +369,6 @@ h2{
         justify-content: space-between;
     }
     .contenedorcentroizquierda p{
-        color: rgb(0, 0, 0);
         color: rgb(143, 148, 167);
         font-size: 0.8rem;
         line-height: 1.3rem;
@@ -398,7 +380,6 @@ h2{
         text-align: center;
     }
     .contenedorcentroderecha p{
-        color: rgb(143, 148, 167);
         font-weight: 300;
         line-height: 1.3rem;
         padding: 1rem 0rem 1rem 0rem;
@@ -444,7 +425,7 @@ h2{
         margin: 0rem;
         background-color: rgb(255, 239, 234);
         font-weight: 500;
-        border-radius: 1rem 0rem 0rem 1rem;
+        border-radius: 1rem;
     }
     #titulo3{
         padding-right: 2rem;
@@ -462,6 +443,7 @@ h2{
     .menuhorizontal{
         color: rgb(242, 95, 58);
         display: initial;
+        font-size: 2rem;
         padding-top: 3rem;
         text-align: center;
     }
@@ -471,7 +453,7 @@ h2{
         align-items: center;
         display: flex;
         flex-direction: column;
-        justify-content: space-aroundS;
+        justify-content: space-around;
         padding: 5rem 3rem;
         text-align: center;
     }
@@ -486,7 +468,7 @@ h2{
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        padding: 2rem 0rem 1rem 0rem;
+        padding: 2rem 0rem 0rem 0rem;
     }
     .contenedor1{
         flex-direction: column-reverse;
@@ -509,7 +491,7 @@ h2{
         display: flex;
         font-size: 0.8rem;
         justify-content: space-around;
-        padding: 2rem;
+        padding: 2rem 2rem 0rem 2rem;
         width: 20rem;
     }
     .contenedor4{
@@ -519,13 +501,19 @@ h2{
         border: none;
         width: 16rem;
     }
+    #aviso{
+        display: none;
+    }
     #derechos{
         display: none;
     }
     #derechos2{
+        background-color: rgb(29, 30, 37);
         color: rgb(143, 148, 167);
         display: flex;
         font-size: 0.7rem;
         order: 1;
+        justify-content: center;
+        padding: 1rem;
     }
 }
